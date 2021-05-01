@@ -23,7 +23,7 @@
              "What are the required courses?"
           ],
           "responses":[
-             "Too many, you will be our gest for the next 6 years :)"
+             "Too many, you will be our guest for the next 6 years :)"
           ],
           "context":[
              ""
@@ -37,7 +37,7 @@
              ""
           ],
           "responses":[
-             "It is always my plesure",
+             "It is always my pleasure",
              "Couldn't care less"
           ],
           "context":[
@@ -47,12 +47,12 @@
        {
           "tag":"campus_life_residence",
           "patterns":[
-             "is it possible to live on campus ?",
-             "how can i apply to live on campus?",
+             "is it possible to live on campus?",
+             "how can I apply to live on campus?",
              "i want to experience living on campus"
           ],
           "responses":[
-             "I think so, since SFU Residence and Housing offers ah-ok experience"
+             "I think so lol"
           ],
           "context":[
              ""
@@ -106,11 +106,11 @@
           "tag":"campus_life_recreation",
           "patterns":[
              "What recreation activies SFU provides?",
-             "Does Sfu provide any events?",
+             "Does SFU provide any events?",
              "events"
           ],
           "responses":[
-             "we have a fun activity at the end of semester, it's called a guess the curve-grading system(simiar to rollercoaster)"
+             "we have a fun activity at the end of semester, it's called a guess the curve-grading system (simiar to a rollercoaster)"
           ],
           "context":[
              ""
@@ -126,7 +126,7 @@
              "Where is"
           ],
           "responses":[
-             "we only offer zoom campus at the momment. "
+             "we only offer zoom campus at the momment."
           ],
           "context":[
              ""
@@ -142,7 +142,7 @@
              "Find blood pressure results by ID"
           ],
           "responses":[
-             "we usually dreamt about the gondola (dream) but again, we only offer zoom, so better have your data and wifi ready."
+             "we usually dreamt about the gondola but again, we only offer zoom, so better have your data and wifi ready."
           ],
           "context":[
              ""
@@ -398,16 +398,43 @@
           ]
        },
        {
-          "tag":"transfer_credits_ib",
+          "tag":"confusion",
           "patterns":[
-             "Can I transfer credits from high school if I took IB?"
+             "What?",
+             "I am confused about what your saying",
+             "I am confused"
           ],
           "responses":[
-             "You took the IB program in high school? What a loser!"
+            "イナス24度以下の寒気が流"
           ],
           "context":[
              ""
           ]
-       }
+       },
+       {
+          "tag":"confusion_1",
+          "patterns":[
+             "I do not understand what you are saying",
+             "I dont understand Japaneese"
+          ],
+          "responses":[
+            "Por favor, acepta mis más sinceras disculpas."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+         "tag":"confusion_2",
+         "patterns":[
+            "I am lost, please speak in English"
+         ],
+         "responses":[
+           "Ok I am back"
+         ],
+         "context":[
+            ""
+         ]
+      }                     
     ]
  }

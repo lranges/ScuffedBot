@@ -1,0 +1,413 @@
+{
+    "intents":[
+       {
+          "tag":"tuition",
+          "patterns":[
+             "What is the tuition for a CS course?",
+             "What is tuition per course?",
+             "How much does a course cost?",
+             "What is the tution?"
+          ],
+          "responses":[
+             "Around 700 bucks per course. Not expensive at all ;)"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"courses",
+          "patterns":[
+             "How many courses do I need for my degree?",
+             "What courses do I need to take for CS?",
+             "What are the required courses?"
+          ],
+          "responses":[
+             "Too many, you will be our gest for the next 6 years :)"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"trash-talk",
+          "patterns":[
+             "You are a bad bot.",
+             "I'm mad at you",
+             ""
+          ],
+          "responses":[
+             "It is always my plesure",
+             "Couldn't care less"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"campus_life_residence",
+          "patterns":[
+             "is it possible to live on campus ?",
+             "how can i apply to live on campus?",
+             "i want to experience living on campus"
+          ],
+          "responses":[
+             "I think so, since SFU Residence and Housing offers ah-ok experience"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"campus_life_campus_dining",
+          "patterns":[
+             "Is there any cafetaria?",
+             "How can i eat on campus?",
+             "How can i drink on campus?"
+          ],
+          "responses":[
+             "yeah, we provided 5 stars meal that no one can afford."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"campus_life_social life",
+          "patterns":[
+             "how is the social life at sfu?",
+             "how is the party at sfu?",
+             "how is the student life at sfu?"
+          ],
+          "responses":[
+             "well i won't answer that cause i'm just a lifeless bot"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"campus_life_athletics",
+          "patterns":[
+             "is the gym open for everyone ?",
+             "gym",
+             "stadium",
+             "sports",
+             "athlete"
+          ],
+          "responses":[
+             "If you can't bench 300lbs, better not come here."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"campus_life_recreation",
+          "patterns":[
+             "What recreation activies SFU provides?",
+             "Does Sfu provide any events?",
+             "events"
+          ],
+          "responses":[
+             "we have a fun activity at the end of semester, it's called a guess the curve-grading system(simiar to rollercoaster)"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"campus_location",
+          "patterns":[
+             "How many campus does SFU has?",
+             "Where is the nearest campus?",
+             "Does SFU has campus in Downtown ?",
+             "Where is SFU?",
+             "Where is"
+          ],
+          "responses":[
+             "we only offer zoom campus at the momment. "
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"campus_access",
+          "patterns":[
+             "How to access SFU campus?",
+             "Is it ",
+             "Load patient blood pressure result",
+             "Show blood pressure results for patient",
+             "Find blood pressure results by ID"
+          ],
+          "responses":[
+             "we usually dreamt about the gondola (dream) but again, we only offer zoom, so better have your data and wifi ready."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"admissions",
+          "patterns":[
+             "Where can I apply",
+             "Where should I apply",
+             "Where apply?"
+          ],
+          "responses":[
+             "I dont know....why are you asking me?"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"admission_cost",
+          "patterns":[
+             "How much does it cost to apply?",
+             "How much to apply?",
+             "cost of application?"
+          ],
+          "responses":[
+             "$1"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"scholarships",
+          "patterns":[
+             "What scholarships do you offer",
+             "How can I get a scholarship",
+             "What is the requirement for scholarships",
+             "How much burasaries do you offer?",
+             "Can I please get a scholarship?"
+          ],
+          "responses":[
+             "Uhmmmm.........since your a top student i will give you $19.99"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"programs",
+          "patterns":[
+             "What programs do you offer?",
+             "What programs does SFU offer?"
+          ],
+          "responses":[
+             "We offer one program which is underwater basket weaving"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"requirements",
+          "patterns":[
+             "What is the main requirement for entry?",
+             "What is the minimum entry requirement?",
+             "What GPA do I need to get in to SFU"
+          ],
+          "responses":[
+             "If you are below 5.0/4.33 GPA do NOT apply"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"offer",
+          "patterns":[
+             "When can I expect an offer?",
+             "When will you respond to my application",
+             "When do you send out offers?"
+          ],
+          "responses":[
+             "lol idk ask r/simonfraser"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"FIC",
+          "patterns":[
+             "How can I transfer from FIC to SFU?"
+          ],
+          "responses":[
+             "YOU ARE IN FIC FOREVERRRRR"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"evaluation",
+          "patterns":[
+             "How will my admissions be evaluated?"
+          ],
+          "responses":[
+             "with the flip of a coin"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"greeting",
+          "patterns":[
+             "Hi there",
+             "How are you",
+             "Is anyone there?",
+             "Hey",
+             "Hola",
+             "Hello",
+             "Good day"
+          ],
+          "responses":[
+             "Hello, thanks for asking",
+             "Good to see you again",
+             "Hi there, how can I help?"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"goodbye",
+          "patterns":[
+             "Bye",
+             "See you later",
+             "Goodbye",
+             "Nice chatting to you, bye",
+             "Till next time"
+          ],
+          "responses":[
+             "See you!",
+             "Have a nice day",
+             "Bye! Come back again soon."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"thanks",
+          "patterns":[
+             "Thanks",
+             "Thank you",
+             "That's helpful",
+             "Awesome, thanks",
+             "Thanks for helping me"
+          ],
+          "responses":[
+             "Happy to help!",
+             "Any time!",
+             "My pleasure"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"noanswer",
+          "patterns":[
+             
+          ],
+          "responses":[
+             "Sorry, can't understand you",
+             "Please give me more info",
+             "Not sure I understand"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"internal_transfers",
+          "patterns":[
+             "How does Internal Transfer work?",
+             "I want to transfer within SFU.",
+             "I want to switch programs."
+          ],
+          "responses":[
+             "Impossible. You will be stuck with your most-hated major for the next 10 years. Good luck!"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"external_transfers",
+          "patterns":[
+             "Bye",
+             "See you later",
+             "Goodbye",
+             "Nice chatting to you, bye",
+             "Till next time"
+          ],
+          "responses":[
+             "See you!",
+             "Have a nice day",
+             "Bye! Come back again soon."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"gpa_transfers",
+          "patterns":[
+             "What GPA do I need to transfer?",
+             "What is the minimum GPA to switch programs at SFU?"
+          ],
+          "responses":[
+             "Your GPA is never going to be good enough for SFU. Sorry!"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"transfer_credits_college",
+          "patterns":[
+             "Can I transfer credits from another college?",
+             "How many credits can I transfer from a different college or university?"
+          ],
+          "responses":[
+             "You can transfer up to a total of 69,420 credits. Thanks for asking!"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"transfer_credits_ap",
+          "patterns":[
+             "Can I transfer credits from high school if I took AP?"
+          ],
+          "responses":[
+             "You took AP courses in high school? What a loser!"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"transfer_credits_ib",
+          "patterns":[
+             "Can I transfer credits from high school if I took IB?"
+          ],
+          "responses":[
+             "You took the IB program in high school? What a loser!"
+          ],
+          "context":[
+             ""
+          ]
+       }
+    ]
+ }

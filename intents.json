@@ -6,7 +6,7 @@
              "What is the tuition for a CS course?",
              "What is tuition per course?",
              "How much does a course cost?",
-             "What is the tution?"
+             "What is the tuition?"
           ],
           "responses":[
              "Around 700 bucks per course. Not expensive at all ;)"
@@ -33,12 +33,12 @@
           "tag":"trash-talk",
           "patterns":[
              "You are a bad bot.",
-             "I'm mad at you",
+             "I'm mad at you.", "Fuck you", "Shitty, terrible, damned bot.",
              ""
           ],
           "responses":[
-             "It is always my pleasure",
-             "Couldn't care less"
+             "What did I do wrong? Tell me. Let's talk about it. ",
+             "Couldn't care less, bro."
           ],
           "context":[
              ""
@@ -47,12 +47,12 @@
        {
           "tag":"campus_life_residence",
           "patterns":[
-             "is it possible to live on campus?",
-             "how can I apply to live on campus?",
-             "i want to experience living on campus"
+             "Is it possible to live on campus?",
+             "How can I apply to live on campus?",
+             "I want to experience living on campus."
           ],
           "responses":[
-             "I think so lol"
+             "Enjoy being lonely! Now gimme $5000 for that."
           ],
           "context":[
              ""
@@ -61,12 +61,12 @@
        {
           "tag":"campus_life_campus_dining",
           "patterns":[
-             "Is there any cafetaria?",
-             "How can i eat on campus?",
-             "How can i drink on campus?"
+             "Is there any cafeteria?",
+             "How can I eat on campus?",
+             "Anything to drink on campus?"
           ],
           "responses":[
-             "yeah, we provided 5 stars meal that no one can afford."
+             "Yeah, we provide 5-star meals that no one can afford."
           ],
           "context":[
              ""
@@ -75,12 +75,12 @@
        {
           "tag":"campus_life_social life",
           "patterns":[
-             "how is the social life at sfu?",
-             "how is the party at sfu?",
-             "how is the student life at sfu?"
+             "How is the social life at SFU?",
+             "How is the party at SFU?",
+             "How is the student life at SFU?"
           ],
           "responses":[
-             "well i won't answer that cause i'm just a lifeless bot"
+             "Well i won't answer that cause i'm just a lifeless bot. What is a 'social life'?"
           ],
           "context":[
              ""
@@ -89,14 +89,14 @@
        {
           "tag":"campus_life_athletics",
           "patterns":[
-             "is the gym open for everyone ?",
+             "Is the gym open for everyone?",
              "gym",
              "stadium",
              "sports",
              "athlete"
           ],
           "responses":[
-             "If you can't bench 300lbs, better not come here."
+             "If you can't bench 300 lbs, you better not come here!"
           ],
           "context":[
              ""
@@ -105,12 +105,12 @@
        {
           "tag":"campus_life_recreation",
           "patterns":[
-             "What recreation activies SFU provides?",
-             "Does SFU provide any events?",
-             "events"
+             "What recreation activities does SFU provide?",
+             "Does SFU provide any events during the semester?",
+             "social events"
           ],
           "responses":[
-             "we have a fun activity at the end of semester, it's called a guess the curve-grading system (simiar to a rollercoaster)"
+             "We have a fun activity at the end of semester, it's called a guess the curve-grading system (similar to a roller coaster)."
           ],
           "context":[
              ""
@@ -126,7 +126,7 @@
              "Where is"
           ],
           "responses":[
-             "we only offer zoom campus at the momment."
+             "We only offer Zoom campus at the moment. We will gladly charge you the same amount for the mediocre education, though!"
           ],
           "context":[
              ""
@@ -135,14 +135,12 @@
        {
           "tag":"campus_access",
           "patterns":[
-             "How to access SFU campus?",
-             "Is it ",
-             "Load patient blood pressure result",
-             "Show blood pressure results for patient",
-             "Find blood pressure results by ID"
+             "How can I access SFU campus?",
+             "Is SFU commuter or transportation friendly? ",
+             "Can I take the bus or drive to SFU?"
           ],
           "responses":[
-             "we usually dreamt about the gondola but again, we only offer zoom, so better have your data and wifi ready."
+             "We usually dream about the gondola. But again, we only offer Zoom at the moment, so better have your data and Wi-Fi ready."
           ],
           "context":[
              ""
@@ -151,12 +149,12 @@
        {
           "tag":"admissions",
           "patterns":[
-             "Where can I apply",
-             "Where should I apply",
+             "Where can I apply?",
+             "Where should I apply?",
              "Where apply?"
           ],
           "responses":[
-             "I dont know....why are you asking me?"
+             "I don't know....I never got in. Why are you asking ME?!!!!!"
           ],
           "context":[
              ""
@@ -167,10 +165,10 @@
           "patterns":[
              "How much does it cost to apply?",
              "How much to apply?",
-             "cost of application?"
+             "Cost of application?"
           ],
           "responses":[
-             "$1"
+             "$1 and your soul."
           ],
           "context":[
              ""
@@ -182,11 +180,11 @@
              "What scholarships do you offer",
              "How can I get a scholarship",
              "What is the requirement for scholarships",
-             "How much burasaries do you offer?",
+             "How much bursaries do you offer?",
              "Can I please get a scholarship?"
           ],
           "responses":[
-             "Uhmmmm.........since your a top student i will give you $19.99"
+             "Uhmmmm.........Since you're a top student, I will give you $19.99!"
           ],
           "context":[
              ""
@@ -199,7 +197,7 @@
              "What programs does SFU offer?"
           ],
           "responses":[
-             "We offer one program which is underwater basket weaving"
+             "We offer one program which is underwater basket weaving."
           ],
           "context":[
              ""
@@ -213,7 +211,7 @@
              "What GPA do I need to get in to SFU"
           ],
           "responses":[
-             "If you are below 5.0/4.33 GPA do NOT apply"
+             "If you are below 5.0/4.33 GPA do NOT apply. We do not want you."
           ],
           "context":[
              ""
@@ -227,7 +225,7 @@
              "When do you send out offers?"
           ],
           "responses":[
-             "lol idk ask r/simonfraser"
+             "lol idk ask r/simonfraser?"
           ],
           "context":[
              ""
@@ -239,7 +237,7 @@
              "How can I transfer from FIC to SFU?"
           ],
           "responses":[
-             "YOU ARE IN FIC FOREVERRRRR"
+             "YOU ARE IN FIC FOREVERRRRR! Don't bother trying to leave."
           ],
           "context":[
              ""
@@ -251,7 +249,7 @@
              "How will my admissions be evaluated?"
           ],
           "responses":[
-             "with the flip of a coin"
+             "With the flip of a coin."
           ],
           "context":[
              ""
@@ -269,9 +267,9 @@
              "Good day"
           ],
           "responses":[
-             "Hello, thanks for asking",
-             "Good to see you again",
-             "Hi there, how can I help?"
+             "Hello, thanks for asking. I'm here!",
+             "Good to see you again.",
+             "Hi there, how can I help you?"
           ],
           "context":[
              ""
@@ -300,14 +298,14 @@
           "patterns":[
              "Thanks",
              "Thank you",
-             "That's helpful",
+             "That's helpful.",
              "Awesome, thanks",
              "Thanks for helping me"
           ],
           "responses":[
              "Happy to help!",
              "Any time!",
-             "My pleasure"
+             "My pleasure. Muwah!"
           ],
           "context":[
              ""
